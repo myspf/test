@@ -1,5 +1,5 @@
 # Dolphindb中使用Kerberos 
-Dolphindb提供了对kerberos的支持，用户可以通过从KDC认证中心获取的有效票据来登录Dolphindb服务。本教程将搭建一个kerberos服务以及dolphindb服务，来描述dolphindb中如何应用kerberos，如果您对kerveros比较熟悉，可以直接阅读后面的章节。本教程包含以下章节：  
+Dolphindb提供了对kerberos的支持，用户可以通过从KDC认证中心获取的有效票据来登录Dolphindb服务。本教程将搭建一个kerberos服务以及dolphindb服务，来描述dolphindb中如何应用kerberos认证，如果您对kerveros比较熟悉，可以直接阅读后面的章节。本教程包含以下章节：  
 **1、系统安装需求**   
 **2、安装配置kerberos服务KDC**  
 **3、安装配置kerberos客户端**  

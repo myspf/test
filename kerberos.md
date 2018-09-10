@@ -4,7 +4,8 @@ Dolphindb提供了对kerberos的支持，用户可以通过从KDC认证中心获
 **2、安装配置kerberos服务KDC**  
 **3、安装配置kerberos客户端**  
 **4、kdc中创建dolphindb服务**  
-**5、dolphindb 中使用kerberos认证**  
+**5、dolphindb中使用kerberos认证**  
+关于kerberos的更多信息，请参考 http://web.mit.edu/kerberos/ 。  
 
 ### 1、权限概述
 #### 1.1 用户和组

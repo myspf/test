@@ -1,11 +1,11 @@
 # Dolphindb中使用Kerberos 
-Dolphindb提供了对kerberos的支持，用户可以通过从KDC认证中心获取的有效票据来登录Dolphindb服务。本教程将搭建一个kerberos服务以及dolphindb服务，来描述dolphindb中如何应用kerberos，如果您对kerveros比较熟悉，可以直接阅读后面的章节。
-本教程包含以下章节：
-1、 系统安装需求
-2、 安装配置kerberos服务KDC
-3、 安装配置kerberos客户端
-4、 kdc中创建dolphindb服务
-5、 dolphindb 中使用kerberos认证
+Dolphindb提供了对kerberos的支持，用户可以通过从KDC认证中心获取的有效票据来登录Dolphindb服务。本教程将搭建一个kerberos服务以及dolphindb服务，来描述dolphindb中如何应用kerberos，如果您对kerveros比较熟悉，可以直接阅读后面的章节。  
+本教程包含以下章节：  
+1、 系统安装需求  
+2、 安装配置kerberos服务KDC  
+3、 安装配置kerberos客户端  
+4、 kdc中创建dolphindb服务  
+5、 dolphindb 中使用kerberos认证  
 DolphinDB提供了强大、灵活、安全的权限控制系统，控制节点（controller）作为权限管理中心，使用RSA加密方式对用户关键信息进行加密，提供用户和组的角色，有多种权限类别以适应各种场景，权限配置必须是管理员用户且在controller上运行。提供以下功能:  
 * 丰富的权限控制函数
 * 提供用户和组角色，方便权限控制

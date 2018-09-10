@@ -8,11 +8,11 @@ Dolphindb提供了对kerberos的支持，用户可以通过从KDC认证中心获
 关于kerberos的更多信息，请参考 http://web.mit.edu/kerberos/ 。  
 
 ### 1、准备工作
-1、搭建dolphindb集群，具体参考：[单机多节点集群部署指南](https://github.com/dolphindb/Tutorials_CN/blob/master/single_machine_cluster_deploy.md)
-2、安装kerberos服务器和客户端。服务器和客户端可以在不同的物理机器上，具体安装配置参考：https://blog.csdn.net/regan_hoo/article/details/78582503
-3、网络联通方面，除了保证dolphindb集群各节点间，以及kerveros服务端和客户端外，还需要保证dolphindb控制节点和kerveros的KDC服务端网络可以联通。
-4、时间同步方面，kerberos对时间比较敏感，各物理服务器间的时间差大于5分钟，会出现问题，因此，建议安装ntp服务器，保证kerberos客户端，kerberos服务，以及dolphidnb controller节点的时间同步。
-5、开发库安装方面，dolphindb是静态连接kerberos库的，因此dolphindb集群各个节点上可以不用安装kerberos开发库。
+1、搭建dolphindb集群，具体参考：[单机多节点集群部署指南](https://github.com/dolphindb/Tutorials_CN/blob/master/single_machine_cluster_deploy.md)  
+2、安装kerberos服务器和客户端。服务器和客户端可以在不同的物理机器上，具体安装配置参考：https://blog.csdn.net/regan_hoo/article/details/78582503  
+3、网络联通方面，除了保证dolphindb集群各节点间，以及kerveros服务端和客户端外，还需要保证dolphindb控制节点和kerveros的KDC服务端网络可以联通。  
+4、时间同步方面，kerberos对时间比较敏感，各物理服务器间的时间差大于5分钟，会出现问题，因此，建议安装ntp服务器，保证kerberos客户端，kerberos服务，以及dolphidnb controller节点的时间同步。  
+5、开发库安装方面，dolphindb是静态连接kerberos库的，因此dolphindb集群各个节点上可以不用安装kerberos开发库。  
 
 
 在dolphindb中使用kerberos，系统要满足以下基本要求。

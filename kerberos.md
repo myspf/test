@@ -15,6 +15,19 @@ Dolphindb提供了对kerberos的支持，用户可以通过从KDC认证中心获
 5、开发库安装方面，dolphindb是静态连接kerberos库的，因此dolphindb集群各个节点上可以不用安装kerberos开发库。  
 
 
+### 2、dolphindb中启用kerberos
+完成dolphindb集群，以及kerberos服务端和客户端配置后，可进行如下操作：
+
+1、启动kerberos服务端KDC服务
+```
+service krb5kdc restart
+service kadmin  restart
+``` 
+
+2、kerberos客户端创建用户
+
+
+
 在dolphindb中使用kerberos，系统要满足以下基本要求。
 #### 1.1 用户和组
 用户和组是承载权限的实体。一个用户可以属于多个组，一个组也可以包括多个用户。引入组的概念，可以方便的对具有相同权限的用户进行权限配置和管理，用户最终的实际权限是用户本身的权限，加上所属组的权限的结果。函数createUser, createGroup, deleteuser, deleteGroup, addGroupMember, deleteGropuMember, getUserAccess, getUserList, getGroupList可以对user和group进行方便的操作。

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T03:08:19.200Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="XifwZkRhCE81QtG1uA5i" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-22T10:04:30.557Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="eOz37lafBtz9hdsnNkjt" version="20.8.20" type="github">
   <diagram name="Page-1" id="NcI3C2nKvygBPAJpbu57">
-    <mxGraphModel dx="2212" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2212" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,7 +156,7 @@
         <mxCell id="D0xbSum_9KOVMymJP6YL-73" value="cid 5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="250" y="1030" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="D0xbSum_9KOVMymJP6YL-74" value="in transaction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="D0xbSum_9KOVMymJP6YL-74" value="in transaction（cid 8）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="380" y="1030" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D0xbSum_9KOVMymJP6YL-75" value="cid 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -180,9 +180,6 @@
         <mxCell id="D0xbSum_9KOVMymJP6YL-85" value="cid 7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="250" y="1150" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="D0xbSum_9KOVMymJP6YL-86" value="in transaction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1150" width="130" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="D0xbSum_9KOVMymJP6YL-87" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;分区1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-90" y="1030" width="60" height="30" as="geometry" />
         </mxCell>
@@ -191,6 +188,101 @@
         </mxCell>
         <mxCell id="D0xbSum_9KOVMymJP6YL-89" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;分区3&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-90" y="1150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-90" value="cid 8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1150" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-91" value="cid 1&amp;nbsp; sid 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1290" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-92" value="cid 4 sid 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1290" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-93" value="cid 5 sid 4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1290" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-94" value="in transaction（cid 8）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1290" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-95" value="cid 1 sid 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1350" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-96" value="cid 6 sid 5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1350" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-97" value="cid 7 sid 6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1350" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-98" value="no transaction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1350" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-99" value="cid 2 sid 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1410" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-100" value="cid 3（commit，由于各种原因，比如clieng挂了，导致一直没有close）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1410" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-102" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;分区1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="1290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-103" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;分区2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="1350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-104" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;分区3&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="1410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-107" value="tid 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1575" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-108" value="tid 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1575" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-109" value="tid 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1575" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-110" value="tid 4（数据写入）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1575" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" target="D0xbSum_9KOVMymJP6YL-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="1635" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-118" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;分区1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="1575" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-119" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;分区2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="1635" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-120" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;分区3&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="1695" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-127" value="tid 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1630" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-136" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="D0xbSum_9KOVMymJP6YL-128" target="D0xbSum_9KOVMymJP6YL-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-128" value="tid 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1630" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-129" value="tid 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1630" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-131" value="tid 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1690" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-132" value="tid 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1690" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-133" value="tid 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1690" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-137" value="tid 4（写入过程中）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1630" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-138" value="tid 4（没开始写入）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1690" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,1 +1,153 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T02:22:18.326Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.8.20" etag="wTnKV7OzwTEVjK_NrfKz" type="github"><diagram name="Page-1" id="NcI3C2nKvygBPAJpbu57">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-22T02:55:06.917Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="WlkMbb7npYsCjDVRi6uu" version="20.8.20" type="github">
+  <diagram name="Page-1" id="NcI3C2nKvygBPAJpbu57">
+    <mxGraphModel dx="2212" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D0xbSum_9KOVMymJP6YL-1" value="DFS client（DN3）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="110" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-2" value="controller" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="D0xbSum_9KOVMymJP6YL-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-3" value="DN1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="460" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-4" value="DN2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="640" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-7" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="190" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.442;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="D0xbSum_9KOVMymJP6YL-7" target="D0xbSum_9KOVMymJP6YL-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="250" as="sourcePoint" />
+            <mxPoint x="450" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-14" value="1、收到请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="310" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-16" value="2、从数据库缓存或者加载数据库domain信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="540" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-19" value="3、根据t的信息，增加不存在的分区，多线程此时可能存在冲突，系统会重试" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="630" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.2;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="D0xbSum_9KOVMymJP6YL-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="480" as="sourcePoint" />
+            <mxPoint x="134" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-23" value="4、根据分区信息，将t分成10个组，每组包含对应分区的数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-25" value="5、将10个分区的path发给controller去打开事务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D0xbSum_9KOVMymJP6YL-1" target="D0xbSum_9KOVMymJP6YL-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="390" as="sourcePoint" />
+            <mxPoint x="290" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-27" value="6、controller创建事务，新建不存在的分区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="215" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.642;entryY=-0.067;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="D0xbSum_9KOVMymJP6YL-2" target="D0xbSum_9KOVMymJP6YL-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-31" value="7、controller将事务信息以及分区信息返回" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-32" value="8、client根据返回的tid创建事务，并且将分区数据发送给相关的datanode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-35" value="9、根据写入请求，创建本地分区，写数据到本节点的cacheEngine，redolog" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="720" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-37" value="9、根据写入请求，创建本地分区，写数据到本节点的cacheEngine，redolog" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="720" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-40" value="9、根据写入请求，创建本地分区，写数据到本节点的cacheEngine，redolog" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="720" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.436;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D0xbSum_9KOVMymJP6YL-1" target="D0xbSum_9KOVMymJP6YL-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.817;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.636;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D0xbSum_9KOVMymJP6YL-1" target="D0xbSum_9KOVMymJP6YL-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-43" value="10、client收到所有节点的写入完成信息，准备提交任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="470" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-45" value="11、client向controller申请全局commit id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="D0xbSum_9KOVMymJP6YL-1" target="D0xbSum_9KOVMymJP6YL-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="530" as="sourcePoint" />
+            <mxPoint x="450" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-56" value="11、开始事务提交的第一阶段，commit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-58" value="12 、开始事务提交的第二阶段，close" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="460" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-62" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="D0xbSum_9KOVMymJP6YL-3" target="D0xbSum_9KOVMymJP6YL-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="530" as="sourcePoint" />
+            <mxPoint x="450" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-65" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.436;entryY=-0.033;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="D0xbSum_9KOVMymJP6YL-4" target="D0xbSum_9KOVMymJP6YL-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="530" as="sourcePoint" />
+            <mxPoint x="450" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.442;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D0xbSum_9KOVMymJP6YL-1" target="D0xbSum_9KOVMymJP6YL-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="480" as="sourcePoint" />
+            <mxPoint x="450" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D0xbSum_9KOVMymJP6YL-1" target="D0xbSum_9KOVMymJP6YL-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="480" as="sourcePoint" />
+            <mxPoint x="450" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0xbSum_9KOVMymJP6YL-70" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1.025;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="D0xbSum_9KOVMymJP6YL-1" target="D0xbSum_9KOVMymJP6YL-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="480" as="sourcePoint" />
+            <mxPoint x="450" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="434" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
